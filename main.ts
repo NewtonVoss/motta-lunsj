@@ -5,7 +5,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("" + (ord))
 })
 let ord = 0
-radio.setGroup(89)
+radio.setGroup(81)
 radio.setTransmitPower(7)
 ord = 0
 basic.forever(function () {
